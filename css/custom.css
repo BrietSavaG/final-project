@@ -11843,6 +11843,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#navbar-nav {
+  color: #F0EADA;
+}
+
+#navbar-nav > li > a:hover {
+  color: #AA883B;
+}
+
 #hero {
   background-image: url(../images/margarita-menu.webp);
   height: 400px;
@@ -11866,11 +11874,12 @@ textarea.form-control-lg {
 }
 
 .intro-copy {
-  height: 523px;
+  height: 30em;
 }
 
 #intro-title {
   font-family: "Pacifico", cursive;
+  color: #ff8873;
 }
 
 /*# sourceMappingURL=custom.css.map */

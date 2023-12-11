@@ -17,6 +17,7 @@
 $font-family-sans-serif: 'Ubuntu', sans-serif;
 $headings-font-family: 'Darker Grotesque', sans-serif;
 
+
 $primary: #15281C;
 $secondary: #F0EADA;
 $success: #445349;
@@ -26,9 +27,6 @@ $danger: #ff8873;
 $light: #f7f4ec;
 $dark: #000000;
 
-// $navbar-light-color: $secondary;
-// $navbar-light-hover-color: $info;
-// $navbar-light-active-color: $info;
 
 $h1-font-size: var(--font-size-xxxl);
 $h2-font-size: var(--font-size-xxl);
@@ -37,11 +35,28 @@ $h3-font-size: var(--font-size-lg);
 $line-height-base: 1.5;
 
 
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
 // Then add additional custom code here
+
+
+// Nav Bar //
+
+#navbar-nav {
+  color: $secondary;
+}
+
+#navbar-nav > li > a:hover {
+  color: $warning;
+}
+
+// Nav Bar //
+
+
+
+
+
 
 #hero {
     background-image: url(../images/margarita-menu.webp);
@@ -66,9 +81,10 @@ $line-height-base: 1.5;
 }
 
  .intro-copy {
-    height: 523px;
+    height: 30em;
  }
 
  #intro-title {
   font-family: 'Pacifico', cursive;
+  color: $danger;
  }
