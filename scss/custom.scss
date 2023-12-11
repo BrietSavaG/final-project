@@ -3,6 +3,33 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+#hero {
+    background-image: url(../images/margarita-menu.webp);
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+#home-button {
+    border-radius: 15%;
+  }
+
+  .container {
+    max-width: 900px;
+  }
+
+  .card-img, .card-img-top {
+    height: 180px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+ .intro-copy {
+    height: 523px;
+ }
