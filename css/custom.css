@@ -11859,12 +11859,22 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
 }
 
-#home-button {
-  border-radius: 15%;
+.intro-copy {
+  align-items: center;
+  justify-content: center;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
-.container {
-  max-width: 900px;
+#intro-title {
+  font-family: "Pacifico", cursive;
+  color: #ff8873;
+  padding-bottom: 1rem;
+}
+
+#recurring-events h2, #recurring-events .h2 {
+  font-weight: 800;
+  text-align: center;
 }
 
 .card-img, .card-img-top {
@@ -11873,13 +11883,13 @@ textarea.form-control-lg {
   overflow: hidden;
 }
 
-.intro-copy {
-  height: 30em;
+.card {
+  text-align: center;
 }
 
-#intro-title {
-  font-family: "Pacifico", cursive;
-  color: #ff8873;
+.card-title {
+  font-weight: 700;
+  padding-top: 1rem;
 }
 
 #footer-grid {
@@ -11890,6 +11900,10 @@ textarea.form-control-lg {
   height: 15em;
   align-items: flex-start;
   padding: 1em;
+}
+
+#footer-grid, li {
+  font-size: var(--font-size-sm);
 }
 
 #footer-title {

@@ -55,9 +55,7 @@ $line-height-base: 1.5;
 
 
 
-
-
-
+// Hero Banner
 #hero {
     background-image: url(../images/margarita-menu.webp);
     height: 400px;
@@ -66,31 +64,45 @@ $line-height-base: 1.5;
     background-repeat: no-repeat;
   }
 
-#home-button {
-    border-radius: 15%;
-  }
 
-  .container {
-    max-width: 900px;
-  }
-
-  .card-img, .card-img-top {
-    height: 180px;
-    object-fit: cover;
-    overflow: hidden;
-}
+// Intro Section
 
  .intro-copy {
-    height: 30em;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
  }
 
  #intro-title {
   font-family: 'Pacifico', cursive;
   color: $danger;
+  padding-bottom: 1rem;
  }
 
 
+// Recurring Events
 
+
+#recurring-events h2 {
+  font-weight: 800;
+  text-align: center;
+}
+
+ .card-img, .card-img-top {
+  height: 180px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-title {
+  font-weight: 700;
+  padding-top: 1rem;
+}
 
 
 
@@ -102,7 +114,10 @@ $line-height-base: 1.5;
   height: 15em;
   align-items: flex-start;
   padding: 1em;
-  
+}
+
+#footer-grid, li {
+  font-size: var(--font-size-sm);
 }
 
 #footer-title {
@@ -122,4 +137,10 @@ $line-height-base: 1.5;
 
 .list-item {
   list-style: none;
+}
+
+@media (max-width: 800px) {
+  #footer-grid {
+    
+  }
 }

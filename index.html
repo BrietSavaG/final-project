@@ -60,11 +60,13 @@
 
 <!-- buttons -->
 <section>
-    <div id="home-button">
-        <div class="d-flex gap-3 col-12">
-            <a href="menu.html" class="btn btn-primary col-4">Menu</a>
-            <a href="#" class="btn btn-primary col-4">Reservations</a>
-            <a href="#" class="btn btn-primary col-4">Our Story</a>
+    <div class="container">
+        <div id="home-button">
+            <div class="d-flex gap-3 py-3 col-12">
+                <a id="banner-button" href="menu.html" class="btn btn-primary col-4">Menu</a>
+                <a id="banner-button" href="#" class="btn btn-primary col-4">Reservations</a>
+                <a id="banner-button" href="#" class="btn btn-primary col-4">Our Story</a>
+            </div>
         </div>
     </div>
 </section>
@@ -95,42 +97,46 @@
 
 
 <!-- Recurring Events Section -->
-<section class="container" id="recurring-events">
+<div class="d-flex gap-2 pb-5 bg-secondary">
 
-    <H2>Recurring Events</H2>
-
-        <div class="d-flex gap-2">
-            <div class="card">
-                <div class="card-body">
-                <h5 class="card-title">Open Mic Night</h5>
-                <img src="images/open-mic-night.webp" class="card-img-top" alt="...">
-                <p class="card-text">A short and enticing description about the event that the client hosts every week! its such an exciting event that all clients looking at this site have to join. why dont you click the button?</p>
-                <a href="#" class="btn btn-primary">Read More!</a>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="card-body">
-                <h5 class="card-title">Bingo Night</h5>
-                <img src="images/bingo-night.webp" class="card-img-top" alt="...">
-                <p class="card-text">A short and enticing description about the event that the client hosts every week! its such an exciting event that all clients looking at this site have to join. why dont you click the button?</p>
-                <a href="#" class="btn btn-primary">Read More!</a>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Tarot Reading</h5>
-                    <img src="images/tarot-cards-drink.webp" class="card-img-top" alt="...">
+    <section class="container" id="recurring-events">
+        <H2 class="py-3">Recurring Events</H2>
+    
+            <div class="d-flex gap-2">
+                <div class="card">
+                    <div class="card-body">
+                    <img src="images/open-mic-night.webp" class="card-img-top" alt="...">
+                    <h3 class="card-title">Open Mic Night</h3>
+                    <hr>
                     <p class="card-text">A short and enticing description about the event that the client hosts every week! its such an exciting event that all clients looking at this site have to join. why dont you click the button?</p>
                     <a href="#" class="btn btn-primary">Read More!</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="images/bingo-night.webp" class="card-img-top" alt="...">
+                        <h3 class="card-title">Bingo Night</h3>
+                        <hr>
+                        <p class="card-text">A short and enticing description about the event that the client hosts every week! its such an exciting event that all clients looking at this site have to join. why dont you click the button?</p>
+                        <a href="#" class="btn btn-primary">Read More!</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <img src="images/tarot-cards-drink.webp" class="card-img-top" alt="...">
+                        <h3 class="card-title">Bingo Night</h3>
+                        <hr>
+                        <p class="card-text">A short and enticing description about the event that the client hosts every week! its such an exciting event that all clients looking at this site have to join. why dont you click the button?</p>
+                        <a href="#" class="btn btn-primary">Read More!</a>
+                    </div>
                 </div>
             </div>
-            
-        </div>
 
-</section>
 
+    </section>
+</div>
 
 <!-- /Recurring Events Section -->
 
@@ -150,7 +156,8 @@
                 <div>
                     <h6 id="footer-title">Where to Find Us</h6>
                     <ul class="list-group list-group-flush">
-                        <li class="list-item">73 Clarence St., Ottawa, ON K1N 5P5</li>
+                        <li class="list-item">73 Clarence St.,</li>
+                        <li class="list-item">Ottawa, ON K1N 5P5</li>
                         <li class="list-item">(613) 562-1008</li>
                         <li class="list-item">team@nansparlour.com</li>
                     </ul>       
@@ -183,7 +190,7 @@
     <div id="copyright-style" class="text-center p-2 bg-primary text-light">
         <p>© 2020 Copyright: <a class="text-light" href="#">Nansparlour.com</a></p>
     </div>
-    
+
 </footer>  
    
 
