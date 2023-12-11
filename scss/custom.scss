@@ -88,3 +88,38 @@ $line-height-base: 1.5;
   font-family: 'Pacifico', cursive;
   color: $danger;
  }
+
+
+
+
+
+
+#footer-grid {
+  display: flex;
+  justify-content: space-between;
+  color: $light;
+  align-items: center;
+  height: 15em;
+  align-items: flex-start;
+  padding: 1em;
+  
+}
+
+#footer-title {
+  color: $warning;
+  font-size: var(--font-size-md);
+  font-weight: 500;
+}
+
+#footer-hours {
+  font-size: var(--font-size-sm);
+  font-weight: 100;
+}
+
+#day-list {
+  font-weight: 600;
+}
+
+.list-item {
+  list-style: none;
+}
