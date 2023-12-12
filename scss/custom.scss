@@ -43,13 +43,24 @@ $line-height-base: 1.5;
 
 // Nav Bar //
 
-  #navbar-nav {
-    color: $secondary;
+  .navbar-nav {
+      width: 100%;
+      text-align: center;
+      justify-content: space-between;
   }
 
-  #navbar-nav > li > a:hover {
-    color: $warning;
+  .navbar-nav .nav-link {
+      color: $secondary; 
+      transition: color 0.3s; 
   }
+
+  .navbar-nav .nav-link:hover {
+      color: $warning; 
+  }
+
+ .navbar-toggler {
+  color: #f7f4ec;
+ }
 
 
 // Nav Bar //
@@ -215,9 +226,6 @@ $line-height-base: 1.5;
 
 
 
-
-
-
 #footer-grid {
   display: flex;
   justify-content: space-between;
@@ -239,7 +247,6 @@ $line-height-base: 1.5;
 }
 
 #footer-hours {
-  font-size: var(--font-size-sm);
   font-weight: 100;
 }
 
@@ -249,4 +256,14 @@ $line-height-base: 1.5;
 
 .list-item {
   list-style: none;
+  color: $secondary;
+}
+
+@media (max-width: 760px) {
+  
+#footer-tile {
+ text-align: center;
+}
+
+
 }
