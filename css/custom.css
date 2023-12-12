@@ -11851,8 +11851,22 @@ textarea.form-control-lg {
   color: #AA883B;
 }
 
+.btn-primary {
+  font-size: var(--font-size-sm);
+  border-radius: 30rem;
+  min-width: 100px;
+}
+
 #hero {
   background-image: url(../images/margarita-menu.webp);
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#menu-hero {
+  background-image: url(../images/pastel-blue-plates.webp);
   height: 400px;
   background-position: center center;
   background-size: cover;
@@ -11890,6 +11904,74 @@ textarea.form-control-lg {
 .card-title {
   font-weight: 700;
   padding-top: 1rem;
+}
+
+.menu-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-list-item {
+  font-size: var(--font-size-xl);
+  font-weight: 100;
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu-item {
+  padding-top: 1em;
+}
+
+#menu-item {
+  padding-top: 1em;
+}
+
+a:active {
+  color: #83A791;
+  text-decoration: underline;
+}
+
+#menu-card {
+  padding: 1em;
+  border-radius: 2%;
+}
+
+#menu-intro-title {
+  font-family: "Pacifico", cursive;
+  color: #ff8873;
+  padding-bottom: 1rem;
+  font-size: var(--font-size-xl);
+}
+
+.events-header {
+  padding: 5em;
+}
+
+.events-header h1, .events-header .h1 {
+  color: #83A791;
+  font-weight: 600;
+}
+
+.events-header p {
+  font-size: var(--font-size-sm);
+}
+
+.img-fluid {
+  object-fit: cover;
+  max-width: 21em;
+  height: 21em;
+  border-radius: 5%;
+}
+
+#events-title {
+  font-weight: 800;
+}
+
+.events-text {
+  align-items: center;
+  justify-content: center;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 #footer-grid {

@@ -43,46 +43,67 @@ $line-height-base: 1.5;
 
 // Nav Bar //
 
-#navbar-nav {
-  color: $secondary;
-}
+  #navbar-nav {
+    color: $secondary;
+  }
 
-#navbar-nav > li > a:hover {
-  color: $warning;
-}
-
-// Nav Bar //
-
-
-
-// Hero Banner
-#hero {
-    background-image: url(../images/margarita-menu.webp);
-    height: 400px;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  #navbar-nav > li > a:hover {
+    color: $warning;
   }
 
 
-// Intro Section
+// Nav Bar //
 
- .intro-copy {
-    align-items: center;
-    justify-content: center;
-    padding-top: 4em;
-    padding-bottom: 4em;
- }
+.btn-primary {
+  font-size: var(--font-size-sm);
+  border-radius: 30rem;
+  min-width: 100px;
+}
 
- #intro-title {
-  font-family: 'Pacifico', cursive;
-  color: $danger;
-  padding-bottom: 1rem;
- }
+// .btn-primary a:hover {
+//   color: $primary;
+//   background-color: $light;
+// }
+
+// Homepage //
+
+  // Hero Banners //
+    #hero {
+      background-image: url(../images/margarita-menu.webp);
+      height: 400px;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    #menu-hero {
+      background-image: url(../images/pastel-blue-plates.webp);
+      height: 400px;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+  // Intro Section //
+
+    .intro-copy {
+        align-items: center;
+        justify-content: center;
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+
+    #intro-title {
+      font-family: 'Pacifico', cursive;
+      color: $danger;
+      padding-bottom: 1rem;
+    }
+
+// Homepage //
 
 
-// Recurring Events
 
+// Recurring Events //
 
 #recurring-events h2 {
   font-weight: 800;
@@ -103,6 +124,97 @@ $line-height-base: 1.5;
   font-weight: 700;
   padding-top: 1rem;
 }
+
+// Menu Content //
+
+  .menu-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu-list-item{
+    font-size: var(--font-size-xl);
+    font-weight: 100; 
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .menu-item {
+    padding-top: 1em;
+  }
+
+  #menu-item {
+    padding-top: 1em;
+  }
+
+  a:active {
+    color: $info;
+    text-decoration: underline;
+  }
+
+  #menu-card {
+    padding: 1em;
+    border-radius: 2%;
+  }
+
+  // CTA Menu //
+
+  #menu-intro-title {
+    font-family: 'Pacifico', cursive;
+    color: $danger;
+    padding-bottom: 1rem;
+    font-size: var(--font-size-xl);
+  }
+
+// Menu Page //
+
+
+// Events Page //
+
+.events-header {
+  padding: 5em;
+}
+
+.events-header h1 {
+  color: $info;
+  font-weight: 600;
+}
+
+.events-header p {
+  font-size: var(--font-size-sm);
+}
+
+
+  .img-fluid {
+    object-fit: cover;
+    max-width: 21em;
+    height: 21em;
+    border-radius: 5%;
+  }
+
+  #events-title {
+    font-weight: 800;
+  }
+
+  .events-text {
+    align-items: center;
+    justify-content: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+
+
+
+
+
+
+
+// Events Page //
+
+
+
+
+
 
 
 
@@ -137,10 +249,4 @@ $line-height-base: 1.5;
 
 .list-item {
   list-style: none;
-}
-
-@media (max-width: 800px) {
-  #footer-grid {
-    
-  }
 }
